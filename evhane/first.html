@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sayfa</title>
+</head>
+<body>
+<form name="frm1" id="frm1" sethod="post" action="onay.php" method="post">
+    <table border="5">
+        <tr>
+            <td>Tutar:</td>
+                  <td colspan="2">  <input type="text" name="tutar"> </td>
+        </tr>
+        <tr>
+            <td>Tarih:</td>
+            <td colspan="2">  <input type="text" name="tarih"> </td>
+        </tr>
+        
+        <tr>
+            <td>Giderler:</td>
+            <td >  <input type="radio" name="gider" value="elektrik">Elektrik </td>
+            <td >  <input type="radio" name="gider" value="su">Su </td>
+            <td >  <input type="radio" name="gider" value="internet">İnternet </td>
+            <td >  <input type="radio" name="gider" value="kira">Doğalgaz </td>
+            <td >  <input type="radio" name="gider" value="dogalgaz">Kira </td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="gider" value="diger">Diğer </td>
+            <td>Açıklama:</td>
+            <td colspan="2">  <input type="text" name="aciklama"> </td>
+        </tr>
+
+      <tr>
+            <td>
+                <input type="submit" name="submitcode" value="gönder value">
+            </td>
+        </tr>
+
+    </table>
+
+
+</form>
+
+
+
+</body>
+</html>
